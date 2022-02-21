@@ -1,6 +1,6 @@
 name = 'balaji dinakaran'
-
-print(name)
+print(len(name))
+print(name[0])
 
 a = 10.2
 
