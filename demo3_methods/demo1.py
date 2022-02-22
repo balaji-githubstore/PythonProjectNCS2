@@ -7,6 +7,7 @@ def area_of_triangle(base, height):
     return (base * height) / 2
 
 
+# call the methods
 print("*" * 50)
 
 output = area_of_circle(10)

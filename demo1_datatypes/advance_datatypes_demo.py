@@ -1,3 +1,5 @@
+
+
 colors = ['red', 'green', 'yellow', 'pink']
 
 print(type(colors))
