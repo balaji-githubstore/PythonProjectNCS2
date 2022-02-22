@@ -19,3 +19,23 @@ num2 = float(num2)
 print(num1 + num2)
 
 mail_id = "balaji@ncs.com"
+
+print(mail_id[0])
+print(mail_id[5])
+print(mail_id[0:6])
+print(mail_id[1:])
+print(mail_id[6:])
+print(mail_id[:6])
+
+
+ls=mail_id.split("@")
+print(ls)
+
+print(ls[0])
+
+text="Specify the start index and the end index"
+
+ls=text.split(" ")
+print(ls)
+
+print(4**3)
