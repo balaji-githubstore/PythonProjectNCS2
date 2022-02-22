@@ -1,8 +1,9 @@
 name = "hello world"
-
+print(type(name))
 print(name)
 print(name.upper())
 print(name.lower())
+
 
 num1 = "$120,500,000"
 num2 = "$520,000"
