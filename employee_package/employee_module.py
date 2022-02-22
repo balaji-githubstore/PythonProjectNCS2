@@ -7,10 +7,14 @@ class Employee:
         self.name = name
         self.salary = salary
 
-    def print_employee_detail(self):
+    def print_employee_detail(self):  # non-static method/instance method
         print(self.id)
         print(self.name)
         print(self.salary)
         print(Employee.company_name)
         print(Employee.company_address)
         print("*" * 50)
+
+    @staticmethod
+    def print_author():
+        print("Author Name: Balaji Dinakaran")
